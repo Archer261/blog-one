@@ -1,0 +1,31 @@
+.blog {
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title img {
+    vertical-align: middle;
+    width: auto;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.app__return {
+    display: flex;
+    height: 75px;
+    justify-content: flex-end;
+    margin: 1rem 2rem;
+}
+
+.app__return svg {
+    width: 75px;
+    height: auto;
+    transition: all 0.3s ease;
+}
+
+.app__return svg:hover {
+    transform: scale(0.9);
+    color: #0093c6;
+}
