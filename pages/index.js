@@ -7,7 +7,7 @@ import BlogCard from '../components/BlogCard'
 import Navbar from '../components/Navbar'
 
 const graphcms = new GraphQLClient(
-  'https://api-us-east-1.hygraph.com/v2/clbsouahc1o3r01t7cxfgd0fz/master'
+  process.env.GRAPH_QL_CLIENT
 );
 
 const QUERY = gql`
