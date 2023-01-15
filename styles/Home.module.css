@@ -41,10 +41,11 @@
 }
 
 .grid {
-  margin: 1rem;
+  justify-items: center;
+  margin: auto;
   display: grid;
   grid-column-gap: 50px;
-  grid-template-columns: repeat(4, minmax(40%, auto));
+  grid-template-columns: repeat(2, minmax(40%, auto));
   width: var(--max-width);
   max-width: 100%;
 }

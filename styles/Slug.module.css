@@ -5,6 +5,13 @@
     align-items: center;
 }
 
+.cover {
+    max-width: 700px;
+    height: auto;
+    margin: 1rem 1rem;
+
+}
+
 .title img {
     vertical-align: middle;
     width: auto;
@@ -28,4 +35,10 @@
 .app__return svg:hover {
     transform: scale(0.9);
     color: #0093c6;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 2rem;
 }
