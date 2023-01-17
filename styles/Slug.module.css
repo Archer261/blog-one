@@ -21,7 +21,7 @@
 
 .app__return {
     display: flex;
-    height: 75px;
+    max-height: 75px;
     justify-content: flex-end;
     margin: 1rem 2rem;
 }
@@ -41,4 +41,10 @@
     display: flex;
     flex-direction: column;
     margin: 1rem 2rem;
+}
+
+@media (max-width: 700px) {
+    .app__return svg {
+        width: 35px;
+    }
 }
